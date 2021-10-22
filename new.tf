@@ -7,7 +7,7 @@ resource "aws_instance" "apps-server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "mohit-server-new1-tf"
+    Name = "mohit-server-new2-tf"
     env = "test1"
   }
 }
